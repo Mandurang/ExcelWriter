@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RRMImSQJp/r1QXS4pmjeNZna5xwRMLL6/JvgfHYL0OTozXYgD/REN7X9Q/97VUzILMvhhTjGxfTOaxgcu57dmA==",
+  "success": true,
+  "projectFilePath": "D:\\AppExelWriter\\ExelWriter\\ExelWriter\\ExelWriter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\foffo\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
+  "logs": []
+}
