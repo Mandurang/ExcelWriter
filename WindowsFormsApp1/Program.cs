@@ -11,12 +11,14 @@ namespace WindowsFormsApp1
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        
         [STAThread]
         static void Main()
         {
+            IExcelWriter writer = new ExcelWriter();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form1(writer));
         }
     }
 }

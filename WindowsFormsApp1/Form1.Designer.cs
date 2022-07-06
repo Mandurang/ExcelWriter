@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.dgv = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
             this.Load = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,6 +43,16 @@
             this.dgv.Size = new System.Drawing.Size(765, 279);
             this.dgv.TabIndex = 0;
             // 
+            // Load
+            // 
+            this.Load.Location = new System.Drawing.Point(477, 377);
+            this.Load.Name = "Load";
+            this.Load.Size = new System.Drawing.Size(75, 23);
+            this.Load.TabIndex = 2;
+            this.Load.Text = "Load";
+            this.Load.UseVisualStyleBackColor = true;
+            this.Load.Click += new System.EventHandler(this.Load_Click);
+            // 
             // button1
             // 
             this.button1.AccessibleName = "Save";
@@ -53,16 +63,6 @@
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // Load
-            // 
-            this.Load.Location = new System.Drawing.Point(477, 377);
-            this.Load.Name = "Load";
-            this.Load.Size = new System.Drawing.Size(75, 23);
-            this.Load.TabIndex = 2;
-            this.Load.Text = "Load";
-            this.Load.UseVisualStyleBackColor = true;
-            this.Load.Click += new System.EventHandler(this.Load_Click);
             // 
             // Form1
             // 
@@ -82,8 +82,8 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgv;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button Load;
+        private System.Windows.Forms.Button button1;
     }
 }
 
